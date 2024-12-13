@@ -28,12 +28,17 @@ document.addEventListener('DOMContentLoaded', () => {
           const draggedElement = document.getElementById(draggedId);
           const targetElement = document.getElementById(targetId);
 
+          // Get the background image URL
+          const draggedBackground = window.getComputedStyle(draggedElement).backgroundImage;
+          const targetBackground = window.getComputedStyle(targetElement).backgroundImage;
+          
+          // Log for debugging
+          console.log(`Dragged background: ${draggedBackground}`);
+          console.log(`Target background: ${targetBackground}`);
+
           // Swap the background images
-          const tempBackground = draggedElement.style.backgroundImage;
-          console.log(`Temp background: ${tempBackground}`);
-          draggedElement.style.backgroundImage = targetElement.style.backgroundImage;
-          console.log(`Target element background: ${targetElement.style.backgroundImage}`);
-          targetElement.style.backgroundImage = tempBackground;
+          draggedElement.style.backgroundImage = targetBackground;
+          targetElement.style.backgroundImage = draggedBackground;
       }
   };
 });
