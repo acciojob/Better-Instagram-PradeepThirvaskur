@@ -1,41 +1,41 @@
 
 #div1 {
-    background-image: url("air\ ballons.jpg");
+    background-image: url("https://picsum.photos/id/237/200/300");
     height: 300px;
     width: 200px;
     margin: 20px;
   }
   
   #div2 {
-    background-image: url("images.jpg");
+    background-image: url("https://picsum.photos/seed/picsum/200/300");
     height: 300px;
     width: 200px;
     margin: 20px;
   }
   
   #div3 {
-    background-image: url("sunset-cropped_E3dHha_BV.webp");
+    background-image: url("https://picsum.photos/200/300?grayscale");
     height: 300px;
     width: 200px;
     margin: 20px;
   }
   
   #div4 {
-    background-image: url("ocean.jpg");
+    background-image: url("https://picsum.photos/200/300/");
     height: 300px;
     width: 200px;
     margin: 20px;
   }
   
   #div5 {
-    background-image: url("paris.jpg");
+    background-image: url("https://picsum.photos/200/300.jpg");
     height: 300px;
     width: 200px;
     margin: 20px;
   }
   
   #div6 {
-    background-image: url("wordpress-image-sizes-1024x512.png");
+    background-image: url("https://picsum.photos/id/102/200/300");
     height: 300px;
     width: 200px;
     margin: 20px;
